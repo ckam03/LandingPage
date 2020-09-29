@@ -1,0 +1,45 @@
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Loto', sans-serif;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Time 
+{
+    font-size: 8rem;
+}
+
+h1
+{
+
+    font-size: 3rem;
+}
+/*
+@media(max-width: 700px)
+{
+    #Time
+    {
+        font-size: 6rem;
+    }
+}
